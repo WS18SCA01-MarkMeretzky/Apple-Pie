@@ -12,6 +12,7 @@
 		4DF0693F21A0DEA900B924E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF0693D21A0DEA900B924E2 /* Main.storyboard */; };
 		4DF0694121A0DEAA00B924E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF0694021A0DEAA00B924E2 /* Assets.xcassets */; };
 		4DF0694421A0DEAA00B924E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF0694221A0DEAA00B924E2 /* LaunchScreen.storyboard */; };
+		4DF0694C21A1A02F00B924E2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0694B21A1A02F00B924E2 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4DF0694021A0DEAA00B924E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF0694321A0DEAA00B924E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DF0694521A0DEAA00B924E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF0694B21A1A02F00B924E2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4DF0693921A0DEA900B924E2 /* AppDelegate.swift */,
 				4DF0693B21A0DEA900B924E2 /* ViewController.swift */,
+				4DF0694B21A1A02F00B924E2 /* Game.swift */,
 				4DF0693D21A0DEA900B924E2 /* Main.storyboard */,
 				4DF0694021A0DEAA00B924E2 /* Assets.xcassets */,
 				4DF0694221A0DEAA00B924E2 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF0693C21A0DEA900B924E2 /* ViewController.swift in Sources */,
+				4DF0694C21A1A02F00B924E2 /* Game.swift in Sources */,
 				4DF0693A21A0DEA900B924E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.sps.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.sps.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
